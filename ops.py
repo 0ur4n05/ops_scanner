@@ -54,7 +54,7 @@ def checking(urlp , wordlistp) :
 def wordlist(urlw , wordlistp) :
     payloads = open(wordlistp, 'r')
     wordlist = open('./wordlists/wordlist.txt' , "a+")
-    if "?" or "=" or "<url>" in urlw :
+    if "?" and "=" and "<url>" and urlw :
         print("[+]-Parameters detected")
         for line in payloads :
             line = line.strip(' \n\t')
