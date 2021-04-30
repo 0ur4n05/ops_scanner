@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 
-#####TODO :
-#good print
-#edit a good readme 
-# add cookies later 
 from colorama import Fore, Back, Style
 import optparse
 import os
