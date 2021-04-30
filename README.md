@@ -35,8 +35,8 @@ Short Form    | Long Form     | Description
 ## Credits
 Special thanks to :
 
-*[f0rkr](https://github.com/f0rkr)
-*[yeez123](https://github.com/yezz123)
+* [f0rkr](https://github.com/f0rkr)
+* [yeez123](https://github.com/yezz123)
 
 # issues
 Bug reports are welcome! Please report all bugs on the issue tracker.
