@@ -1,5 +1,5 @@
 # OPS
-OPS is a python tool designed to scan for open Redirect vulnerabilities, it can be used also to bypass filters.
+OPS is a python tool designed to scan for open Redirect vulnerabilities, used also to bypass filters.
 
 # Screenshots
 ![image](https://user-images.githubusercontent.com/65312444/116719737-f0995280-a9ca-11eb-9dcc-c59fa1d0b2a8.png)
