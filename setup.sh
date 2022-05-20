@@ -1,8 +1,13 @@
 #!/bin/bash
 
-sudo apt install python3 -y
-sudo apt install python3-pip -y
-sudo apt install python3-requests -y
+if [ -f "/etc/arch-release" ]; then
+    sudo pacman -Sy python python-pip python-requests
+elif [ -f "/etc/fedora-release"]; then
+    sudo dnf install python3 python3-pip python3-requests -y
+else # for debian based distros
+    sudo apt install python3 python3-pip python3-requests -y
+fi
+
 pip3 install colorama
 pip3 install optparse-pretty
 pip3 install os
